@@ -1,0 +1,29 @@
+{
+  "name": "vue-mathjax-v3",
+  "version": "0.0.1",
+  "description": "Mathjax v3 for vue 3",
+  "main": "./lib/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xJeneKx/vue-mathjax-v3.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "vue",
+    "mathjax",
+    "mathjax-v3",
+    "plugin"
+  ],
+  "author": "xjenekx",
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "4.9.3",
+    "rollup-plugin-vue": "6.0.0"
+  }
+}
